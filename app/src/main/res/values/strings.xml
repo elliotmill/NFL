@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">NFL</string>
+    <string name="did_not_play">DID NOT PLAY</string>
+    <string name="quarter_one">Quarter 1</string>
+    <string name="quarter_two">Quarter 2</string>
+    <string name="quarter_three">Quarter 3</string>
+    <string name="quarter_four">Quarter 4</string>
+    <string name="select_teams">Select Teams</string>
+    <string name="quater_results">Quater Results</string>
+    <string name="final_result">Final Result</string>
 </resources>
