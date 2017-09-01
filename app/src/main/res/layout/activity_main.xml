@@ -17,6 +17,15 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
+        <TextView
+            android:text="VS"
+            android:textSize="32sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
         <Spinner
             android:id="@+id/spinner_2"
             android:layout_width="0dp"
@@ -28,6 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:visibility="gone"
         android:layout_marginTop="15dp"
         android:orientation="vertical">
         <TextView
@@ -36,7 +46,6 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="visible"
             android:layout_marginTop="5dp">
 
             <LinearLayout
@@ -51,15 +60,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     android:layout_gravity="center_horizontal" />
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <TextView
                         android:id="@+id/tv_team1_q1"
-                        android:text="34"
                         android:gravity="center"
                         android:textSize="24sp"
+                        android:text="hey there"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"/>
@@ -69,7 +79,6 @@
                         android:background="@color/divider"/>
                     <TextView
                         android:id="@+id/tv_team2_q1"
-                        android:text="15"
                         android:gravity="center"
                         android:textSize="24sp"
                         android:layout_width="0dp"
@@ -84,13 +93,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     android:layout_gravity="center_horizontal" />
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <TextView
                         android:id="@+id/tv_team1_q2"
-                        android:text="37"
                         android:gravity="center"
                         android:textSize="24sp"
                         android:layout_width="0dp"
@@ -101,8 +110,7 @@
                         android:layout_height="match_parent"
                         android:background="@color/divider"/>
                     <TextView
-                        android:id="@+id/tv_team2_q22"
-                        android:text="19"
+                        android:id="@+id/tv_team2_q2"
                         android:gravity="center"
                         android:textSize="24sp"
                         android:layout_width="0dp"
@@ -117,13 +125,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     android:layout_gravity="center_horizontal" />
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <TextView
                         android:id="@+id/tv_team1_q3"
-                        android:text="14"
                         android:gravity="center"
                         android:textSize="24sp"
                         android:layout_width="0dp"
@@ -135,7 +143,6 @@
                         android:background="@color/divider"/>
                     <TextView
                         android:id="@+id/tv_team2_q3"
-                        android:text="45"
                         android:gravity="center"
                         android:textSize="24sp"
                         android:layout_width="0dp"
@@ -150,13 +157,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     android:layout_gravity="center_horizontal"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <TextView
                         android:id="@+id/tv_team1_q4"
-                        android:text="19"
                         android:gravity="center"
                         android:textSize="24sp"
                         android:layout_width="0dp"
@@ -168,7 +175,6 @@
                         android:background="@color/divider"/>
                     <TextView
                         android:id="@+id/tv_team2_q4"
-                        android:text="19"
                         android:gravity="center"
                         android:textSize="24sp"
                         android:layout_width="0dp"
@@ -188,7 +194,6 @@
             android:layout_height="wrap_content">
             <TextView
                 android:id="@+id/tv_team1_final_score"
-                android:text="104"
                 android:gravity="center"
                 android:textSize="28sp"
                 android:layout_width="0dp"
@@ -200,7 +205,6 @@
                 android:background="@color/divider"/>
             <TextView
                 android:id="@+id/tv_team2_final_score"
-                android:text="98"
                 android:gravity="center"
                 android:textSize="28sp"
                 android:layout_width="0dp"
@@ -211,8 +215,8 @@
 
     <TextView
         android:id="@+id/tv_no_results"
-        android:text="@string/did_not_play"
-        android:visibility="gone"
+        android:text="@string/select_teams"
+        android:visibility="visible"
         android:textSize="24sp"
         android:gravity="center"
         android:layout_width="match_parent"
