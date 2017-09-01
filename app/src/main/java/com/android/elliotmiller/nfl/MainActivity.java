@@ -73,12 +73,12 @@ public class MainActivity extends AppCompatActivity {
         tvTeamTwoFinalScore = (TextView)findViewById(R.id.tv_team2_final_score);
         tvTeam1Q4Point = (TextView)findViewById(R.id.tv_team1_q4);
         tvTeam2Q4Point = (TextView)findViewById(R.id.tv_team2_q4);
-        tvTeam1Q3Point = (TextView)findViewById(R.id.tv_team2_q3);
-        tvTeam2Q3Point = (TextView)findViewById(R.id.tv_team1_q3);
+        tvTeam1Q3Point = (TextView)findViewById(R.id.tv_team1_q3);
+        tvTeam2Q3Point = (TextView)findViewById(R.id.tv_team2_q3);
         tvTeam1Q2Point = (TextView)findViewById(R.id.tv_team1_q2);
         tvTeam2Q2Point = (TextView)findViewById(R.id.tv_team2_q2);
-        tvTeam1Q1Point = (TextView)findViewById(R.id.tv_team2_q1);
-        tvTeam2Q1Point = (TextView)findViewById(R.id.tv_team1_q1);
+        tvTeam1Q1Point = (TextView)findViewById(R.id.tv_team1_q1);
+        tvTeam2Q1Point = (TextView)findViewById(R.id.tv_team2_q1);
         spinnerTeams1 = (Spinner)findViewById(R.id.spinner_1);
         spinnerTeams2 = (Spinner)findViewById(R.id.spinner_2);
         resultsView = findViewById(R.id.results_view);
