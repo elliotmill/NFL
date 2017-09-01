@@ -16,8 +16,8 @@ public class GameResult {
     }
 
     public int[] getFinalScores() {
-        int t1Score = this.quarterOne.TEAM_ONE_POINT + this.quarterTwo.TEAM_ONE_POINT + this.quarterThree.TEAM_ONE_POINT + this.quarterFour.TEAM_ONE_POINT;
-        int t2Score = this.quarterOne.TEAM_TWO_POINT + this.quarterTwo.TEAM_TWO_POINT + this.quarterThree.TEAM_TWO_POINT + this.quarterFour.TEAM_TWO_POINT;
+        int t1Score = this.quarterFour.TEAM_ONE_POINT;
+        int t2Score = this.quarterFour.TEAM_TWO_POINT;
         return new int[]{t1Score, t2Score};
     }
 }
